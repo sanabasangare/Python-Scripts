@@ -1,7 +1,7 @@
 """This algorithm finds the MST of an undirected graph by examining 
-	all the edges and nodes, then stores only the edges with
+    all the edges and nodes, then stores only the edges with
     the smallest value with the connected nodes of that 
-    edge if they have not been added already"""
+    edge if they have not already been added."""
 
 class Node(object):
     def __init__(self, data):
