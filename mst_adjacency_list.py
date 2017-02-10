@@ -38,7 +38,7 @@ class Graph(object):
         stop.edges.append(new_edge)
         self.edges.append(new_edge)
 
-def miN_spaN_treE(self):
+def Min_Span_Tree(self):
     """This will return the edges with
         the smallest value as well as
         the connected nodes."""
@@ -76,4 +76,4 @@ g.add_edge(5, 'B', 'C')
 g.add_edge(3, 'C', 'B')
 g.add_edge(4, 'C', 'A')
 
-print miN_spaN_treE(g)
+print Min_Span_Tree(g)
