@@ -1,3 +1,8 @@
+""" This solution loops through a linked list by initializing the
+counter at 1 and calculating the length of the linked list from there.
+While making sure that m is a non-negative integer. """
+
+
 class Node:
     def __init__(self, data):
         self.data = data
