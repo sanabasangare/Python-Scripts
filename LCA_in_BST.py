@@ -1,4 +1,7 @@
-#  for Lowest Common Ancestor in BST
+""" With this solution, the lowest common ancestor can be found in a tree 
+by traversing  directly from top to bottom. The objective is to examine 
+if the descendants of root contains values greater than the ancestor (r),  
+before choosing the lowest common ancestor."""
 
 class Node:
     # The constructor to create a new binary search tree node
