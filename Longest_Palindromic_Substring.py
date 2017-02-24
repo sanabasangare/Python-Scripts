@@ -1,3 +1,7 @@
+"""Considering every character as the potential starting point of the 
+longest palindromic substring contained in a string, this solution finds
+the longest palindrome by looking for the occurrence of patterns."""
+
 def Longest_Palindromic_Substring(a):
     if a == None or not isinstance(a, str):
         return TypeError("String Required!")
@@ -34,4 +38,4 @@ print Longest_Palindromic_Substring("abcd")         # a
 
 print Longest_Palindromic_Substring(None)           # String Required!
 
-print Longest_Palindromic_Substring(1117779) 		# String Required!
+print Longest_Palindromic_Substring(1117779)		# String Required!
