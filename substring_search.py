@@ -31,3 +31,15 @@ def substring_ngram(s, t):
         if t_dict == s_dict:
             return True
     return False
+
+print substring_ngram(" ", "abc")       	# False
+
+print substring_ngram("abc@#$", "@#$")  	# True
+
+print substring_ngram("silent", "listen")  	# True
+
+print substring_ngram("testing", "set")  	# True
+
+print substring_ngram("warning", None)  	# String Required!
+
+print substring_ngram("warning", "wng")  	# False
