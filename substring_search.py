@@ -1,3 +1,14 @@
+'''I started by preparing edge cases in the event when the inputs are the same, 
+or if an entry is “None”, or simply empty, then a TypeError is raised. 
+To find possible substrings in a string "s", I stored the characters of "t" 
+separately. Then, created a new (empty) dict to store the substrings of string 
+"s" that are the same length as "t". And lastly, if the substrings in the dicts 
+are a match, the function returns True.'''
+
+'''The average time complexity for this solution is O(n^2) because the inner 
+loop will iterate j times for each iterations of the outer loop i.'''
+
+
 def substring_ngram(s, t):
     # If there is no string input
     if s == None or t == None:
