@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 def hello_world():
 
-	return 'Hello World!'
+    return 'Hello World!'
 
 
 @app.route('/roll_dice/<int:sides>/json')
@@ -20,12 +20,12 @@ def dice_rolls():
 	
     sides = 6
 
-	# variable assigned, random.randint generate and return a random integer for die 1 & 2
-	die1 = random.randint(1, sides)
-	die2 = random.randint(1, sides)
+    # variable assigned, random.randint generate and return a random integer for die 1 & 2
+    die1 = random.randint(1, sides)
+    die2 = random.randint(1, sides)
 
-	# returning a sorted result in JSON
-	return json.dumps({'die1': die1, 'die2': die2}, sort_keys = True)
+    # returning a sorted result in JSON
+    return json.dumps({'die1': die1, 'die2': die2}, sort_keys = True)
 
 if __name__ == '__main__':
     app.debug = True
