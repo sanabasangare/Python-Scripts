@@ -16,3 +16,5 @@ def cryptopy():
     # Otherwise, decode the message.
     elif reply == "decrypt":
         return decrypt()
+
+print cryptopy()
