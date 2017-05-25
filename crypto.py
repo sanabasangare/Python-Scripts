@@ -7,3 +7,5 @@ into plain text
 
 def cryptopy():
 
+    reply = raw_input("Do you want to encrypt or decrypt.\
+ (please type <<encrypt>> or <<decrypt>>")
