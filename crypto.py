@@ -46,5 +46,9 @@ def encryption():
         conversion4 = encoded_message + encoded_char
         encoded_message = conversion4
 
+    print encoded_message
+
+    raw_input("Press enter to exit")
+
 
 print cryptopy()
