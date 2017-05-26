@@ -21,7 +21,7 @@ def cryptopy():
 
 # The encryption function
 def encryption():
-    message = raw_input("Please enter the text you wish to encrypt:")
+    message = raw_input("Please enter the text you wish to encrypt: ")
     
     # return the length of the original text
     length = len(message)
@@ -51,4 +51,4 @@ def encryption():
     raw_input("Press enter to exit")
 
 
-print cryptopy()
+cryptopy()
