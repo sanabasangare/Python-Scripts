@@ -29,4 +29,12 @@ def encryption():
     c = 0
 
 
+    # Producing the encrypted message
+    while start < length:
+        char = message[start]
+        conversion1 = start
+        start = conversion1 + 1
+
+
+
 print cryptopy()
