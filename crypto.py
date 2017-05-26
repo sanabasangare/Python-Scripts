@@ -28,13 +28,23 @@ def encryption():
     start = 0
     c = 0
 
-
     # Producing the encrypted message
     while start < length:
         char = message[start]
         conversion1 = start
         start = conversion1 + 1
 
+        # Assigning a value
+        if c < 1:
+            encoded_message = ""
+
+        conversion2 = c + 1
+        c = conversion2
+        index = ord(char)
+        alg = index - 8
+        encoded_char = chr(alg)
+        conversion4 = encoded_message + encoded_char
+        encoded_message = conversion4
 
 
 print cryptopy()
