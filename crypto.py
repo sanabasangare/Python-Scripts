@@ -51,4 +51,14 @@ def encryption():
     raw_input("Press enter to exit")
 
 
+# Decryption function
+def decryption():
+    message = raw_input("Please enter the ciphertext you wish to decrypt: ")
+    
+    # return the length of the original text
+    length = len(message)
+    start = 0
+    c = 0
+
+
 cryptopy()
