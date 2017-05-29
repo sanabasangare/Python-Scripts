@@ -38,6 +38,7 @@ def encryption():
         if c < 1:
             encoded_message = ""
 
+        # converting the text based on the char's position
         conversion2 = c + 1
         c = conversion2
         index = ord(char)
@@ -69,7 +70,7 @@ def decryption():
         if c < 1:
             encoded_message = ""
 
-
+        # converting the text based on the char's position
         conversion2 = c + 1
         c = conversion2
         index = ord(char)
@@ -79,6 +80,8 @@ def decryption():
         encoded_message = conversion4
 
     print encoded_message
+
+    raw_input("Press enter to exit")
 
 
 cryptopy()
